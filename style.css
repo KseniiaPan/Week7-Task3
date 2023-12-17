@@ -1,0 +1,34 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-rows: repeat(2, 100px);
+    gap: 5px;
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+    text-align: center;
+}
+.cell_1 {
+    background-color:aquamarine;
+    padding-top: 30px;
+}
+.cell_2 {
+    background-color:yellow;
+    padding-top: 30px;
+}
+.cell_3 {
+    background-color:aqua;
+    padding-top: 30px;
+}
+.cell_4 {
+    background-color:violet;
+    padding-top: 30px;
+}
+.cell_5 {
+    background-color:greenyellow;
+    padding-top: 30px;
+}
+.cell_6 {
+    background-color:orange;
+    padding-top: 30px;
+}
